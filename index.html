@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- METADATOS -->
+		<meta charset="utf-8">
+		<meta name="author" content="Daniel Rodríguez">
+		<meta description="Portafolio de desarrollo web de Daniel Rodriguez">
+		<meta name="keywords" content="HTML, CSS, JavaScript,">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">  <!-- Para usar los iconos -->
+		<!-- TITULO -->
+		<title>Daniel Rodriguez | Desarollo Web Front End</title>
+		<!-- FAVICON -->
+		<link rel="icon" type="image/x-icon" href="images/portafolio.png">
+		<!-- CSS -->
+		<link href="style.css" rel="stylesheet">
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+		<!-- Barra de navegacion -->
+		<nav class="navbar navbar-expand-md navbar-light">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<a class="navbar-brand" href="#">
+						<img src="images/portafolio.png" width="50px" alt="Logo de la página web">
+					</a>
+					<ul class="navbar-nav d-flex justify-content-center align-items-center">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#proyectos">Proyectos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#testimonios">Testimonios</a>
+						</li>
+						<li>
+							<a class="nav-link" href="#contacto">Contacto</a>
+						</li>
+					</ul>		
+				</div>
+			</div>
+		</nav>
+
+		<!-- SECCION HERO -->
+		<section class="hero align-items-stretch">
+			<div class="hero-principal d-flex flex-column justify-content-center align-items-center"> <!-- LAS CLASES QUE AÑADÍ AQUÍ SON LAS MISMAS QUE SE AÑADIERON AL DOC STYLES.CSS (SECTION{...}) -->
+				<img  class="imagen-perfil rounded-circle" src="images/fotoper.jpg.jpg" alt="my-image"  > <!-- AGREGAR FOTO DE PERFIL -->
+				<h1>Hola, Soy Daniel Rodríguez</h1>
+				<h2>Desarollo sitios web y mi especialidad es el Front end</h2>
+			</div>
+			<div class="hero-inferior">
+				<img src="images/hero-inferior.svg" alt="Lenguajes a tomar"  class="hero-inferior-imagen img-fluid">   <!-- Modificar el alt -->
+			</div>
+		</section>
+		<!-- SOBRE MI -->
+		<section id="sobre-mi" class="sobre-mi seccion-obscura d-flex flex-column justify-content-center align-items-center ">
+			<div class="contenedor">
+				<h2 class="seccion-titulo">Conoce a Daniel Rodríguez </h2>
+				<p class="seccion-texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quo pariatur repellat nesciunt accusamus, aut fugit ipsa ut harum voluptatum eos architecto sequi, deleniti ab dolor laudantium exercitationem at adipisci. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem ut qui quisquam voluptas doloremque aut illo suscipit eius sunt quasi eveniet, molestiae vel earum dolorum alias, repudiandae temporibus veritatis labore.</p>
+			</div>
+		</section>
+
+		<!-- EXPERIENCIA -->
+		<section class="experiencia seccion-clara">
+			<div class="container text-center">
+				<div class="row">
+					<!-- desarollo web -->
+					<div class="columna col-12 col-md-4">
+						<i class="bi bi-laptop"></i>
+						<p class="experiencia-titulo">desarollo web</p>
+						<p>mo, voluptates et reprehenderit culpa? Repellat minus quod sapiente sed?</p>
+						<div class="badges-contentedor ">
+							<span class="badge text-bg-primary">Html</span>
+							<span class="badge text-bg-primary">CSS</span>
+							<span class="badge text-bg-primary">JavaScript</span>
+							<span class="badge text-bg-primary">Bootstrap</span>
+						</div>
+					</div>
+					<!-- articulos -->
+					<div class="columna col-12 col-md-4">
+						<i class="bi bi-laptop"></i>
+						<p class="experiencia-titulo">Articulos</p>
+						<p>mo, voluptates et reprehenderit culpa? Repellat minus quod sapiente sed?</p>
+						<div class="badges-contentedor ">
+							<span class="badge text-bg-primary">Html</span>
+							<span class="badge text-bg-primary">CSS</span>
+							<span class="badge text-bg-primary">JavaScript</span>
+						</div>
+					</div>
+					<!-- estudiante -->
+					<div class="columna col-12 col-md-4">
+						<i class="bi bi-laptop"></i>
+						<p class="experiencia-titulo">Estudiante</p>
+						<p>mo, voluptates et reprehenderit culpa? Repellat minus quod sapiente sed?</p>
+						<div class="badges-contentedor ">
+							<span class="badge text-bg-primary">Html</span>
+							<span class="badge text-bg-primary">CSS</span>
+							<span class="badge text-bg-primary">JavaScript</span>
+							<span class="badge text-bg-primary">Bootstrap</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- PROYECTOS -->
+		<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+			<h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+			<h3 class="seccion-descripcion">Estos son algunos de mis últimos proyectos </h3>
+			<!-- galeria de proyectos -->
+			<div class="container text-center proyectos-contenedor">
+				<div class="row">
+					<!-- PROYECTO 1 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="images/foto1.jpeg" alt="react">
+							<div class="overlay">
+								<p>proyecto 1</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- EN HREF SE DEBERIA PONER EL URL DEL CODIGO DE MI REPOSITORIO EN GITHUB Y EL TARGET Y REL ES PARA QUE SE PUEDA ABRIR EL LINK EN UNA PESTAÑA NUEVA  -->
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="" target="_blank" rel="noopener noreferrer" > <!--  EN HREF DEBERÍA IR A LA VERSION EN VIVO DEL PROYECTO-->
+										<i class="bi bi-laptop-fill"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- PROYECTO 2-->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="images/foto1.jpeg" alt="react">
+							<div class="overlay">
+								<p>proyecto 2</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- EN HREF SE DEBERIA PONER EL URL DEL CODIGO DE MI REPOSITORIO EN GITHUB Y EL TARGET Y REL ES PARA QUE SE PUEDA ABRIR EL LINK EN UNA PESTAÑA NUEVA  -->
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="" target="_blank" rel="noopener noreferrer" > <!--  EN HREF DEBERÍA IR A LA VERSION EN VIVO DEL PROYECTO-->
+										<i class="bi bi-laptop-fill"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- PROYECTO 3 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="images/foto1.jpeg" alt="react">
+							<div class="overlay">
+								<p>proyecto 3</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- EN HREF SE DEBERIA PONER EL URL DEL CODIGO DE MI REPOSITORIO EN GITHUB Y EL TARGET Y REL ES PARA QUE SE PUEDA ABRIR EL LINK EN UNA PESTAÑA NUEVA  -->
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="" target="_blank" rel="noopener noreferrer" > <!--  EN HREF DEBERÍA IR A LA VERSION EN VIVO DEL PROYECTO-->
+										<i class="bi bi-laptop-fill"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- PROYECTO 4 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="images/foto1.jpeg" alt="react">
+							<div class="overlay">
+								<p>proyecto 4</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- EN HREF SE DEBERIA PONER EL URL DEL CODIGO DE MI REPOSITORIO EN GITHUB Y EL TARGET Y REL ES PARA QUE SE PUEDA ABRIR EL LINK EN UNA PESTAÑA NUEVA  -->
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="" target="_blank" rel="noopener noreferrer" > <!--  EN HREF DEBERÍA IR A LA VERSION EN VIVO DEL PROYECTO-->
+										<i class="bi bi-laptop-fill"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- PROYECTO 5 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="images/foto1.jpeg" alt="react">
+							<div class="overlay">
+								<p>proyecto 5</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- EN HREF SE DEBERIA PONER EL URL DEL CODIGO DE MI REPOSITORIO EN GITHUB Y EL TARGET Y REL ES PARA QUE SE PUEDA ABRIR EL LINK EN UNA PESTAÑA NUEVA  -->
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="" target="_blank" rel="noopener noreferrer" > <!--  EN HREF DEBERÍA IR A LA VERSION EN VIVO DEL PROYECTO-->
+										<i class="bi bi-laptop-fill"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- PROYECTO 6 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="images/foto1.jpeg" alt="react">
+							<div class="overlay">
+								<p>proyecto 6</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- EN HREF SE DEBERIA PONER EL URL DEL CODIGO DE MI REPOSITORIO EN GITHUB Y EL TARGET Y REL ES PARA QUE SE PUEDA ABRIR EL LINK EN UNA PESTAÑA NUEVA  -->
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="" target="_blank" rel="noopener noreferrer" > <!--  EN HREF DEBERÍA IR A LA VERSION EN VIVO DEL PROYECTO-->
+										<i class="bi bi-laptop-fill"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <!-- el destino va a ser github -->
+				<button type="button" class="btn btn-default btn-info">
+				Ver más Proyectos <i class="bi bi-arrow-right-circle-fill"></i>
+				</button>
+			</a>
+		</section>
+
+		<!-- TESTIMONIOS -->
+		<section id="testimonios"  class="testimonios seccion-clara">
+			<h2 class="seccion-titulo">Testimonios</h2>
+			<h3 class="seccion-descripcion text-center">Estos son algunos testimonios de mis clientes</h3>
+			<!-- CARRUSEL -->
+			<div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<div class="container">
+						<img class="testimonio-imagen rounded-circle" src="images/cliente2.svg" alt=""> 
+						<p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odio beatae atque voluptate consectetur harum fuga veritatis nobis. Placeat, neque quo rerum vero commodi necessitatibus ratione minima reprehenderit earum non?</p>
+						<div class="testimonio-info">
+							<p class="cliente text-center">Gino</p>
+							<p class="cargo">Gerente de proyectos en web </p>
+						</div>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="container">
+						<img class="testimonio-imagen rounded-circle" src="images/cliente2.svg" alt=""> 
+						<p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odio beatae atque voluptate consectetur harum fuga veritatis nobis. Placeat, neque quo rerum vero commodi necessitatibus ratione minima reprehenderit earum non?</p>
+						<div class="testimonio-info">
+							<p class="cliente text-center">Pancho</p>
+							<p class="cargo">Gerente de proyectos en web </p>
+						</div>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="container">
+						<img class="testimonio-imagen rounded-circle" src="images/cliente2.svg" alt=""> 
+						<p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odio beatae atque voluptate consectetur harum fuga veritatis nobis. Placeat, neque quo rerum vero commodi necessitatibus ratione minima reprehenderit earum non?</p>
+						<div class="testimonio-info">
+							<p class="cliente text-center">Tino</p>
+							<p class="cargo">Gerente de proyectos en web </p>
+						</div>
+					</div>
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Anterior</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Siguiente</span>
+				</button>
+			  </div>
+		</section>
+
+		<!-- CONTACTO -->
+		<section id="contacto" class="contacto seccion-obscura">
+			<div class="container">
+				<div class="container text-center d-flex justify-content-evenly rectangulo">
+					<div class="row">	
+						<div class="col-12 col-md-4 seccion-titulo">
+							 Hablemos
+						</div>
+						<div class="col-12 col-md-4 descripcion">
+							contactame
+						</div>
+						<div class="col-12 col-md-4 ">
+							<a href="mailto: daniel.soluciondinamica@gmail.com">
+								<button type="button">
+									Contacto
+									  <i class="bi bi-envelope-at-fill"></i>
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- PIE DE PAGINA -->
+		<footer class="seccion-obscura d-flex  flex-column align-items-center justify-content-center">
+			<img class="footer-icono" src="images/cliente2.svg" alt="">
+			<p class="footer-texto text-center"> aprendo y creo todos los dias<br>creemos un proyecto juntis</p>
+			<div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+				<a href="https://www.linkedin.com/in/daniel-rodr%C3%ADguez-ram%C3%ADrez-a10a76223/" target="_blank" rel=" noopener noreferrer"> <i class="bi bi-linkedin"></i></a> <!-- en href poner el link de la red socal -->
+				<a href="https://github.com/danielrdzcl" target="_blank" rel=" noopener noreferrer"> <i class="bi bi-github"></i> </a> <!-- en href poner el link de la red socal -->	
+				<a href="mailto: daniel.soluciondinamica@gmail.com" target="_blank" rel=" noopener noreferrer"> <i class="bi bi-envelope-at-fill"></i></a> <!-- en href poner el link de la red socal -->
+			</div>
+			<div class="derechos-de-autor d-flex  flex-column align-items-center justify-content-center">Creado por Daniel Rodríguez (2022) &#169; </div>
+		</footer>
+	
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> <!--El CDN de JS se pone justo antes del cierre de etiqueta de body para que no se vaya a bloquear algo en el codigo -->
+	</body>
+</html>
